@@ -143,18 +143,3 @@ function compare(a, b) {
     }
     return 0;
 }
-
-// let arr =[
-//   {div:null,roll:null,name:"yash",isTeacher:true},
-//   {div:"B",roll:3,name:"ab",isTeacher:false},
-//   {div:"A",roll:2,name:"das",isTeacher:false},
-//   {div:"A",roll:10,name:"dvasf",isTeacher:false},
-//   {div:"A",roll:44,name:"sdfc",isTeacher:false},
-//   {div:"A",roll:50,name:"sdcsad",isTeacher:false},
-//   {div:"B",roll:60,name:"adasec",isTeacher:false},
-//   {div:"B",roll:13,name:"btar",isTeacher:false},
-//   {div:"B",roll:11,name:"fase",isTeacher:false},
-//   {div:"B",roll:22,name:"saefdsa",isTeacher:false},
-//   {div:"B",roll:92,name:"chsdbfk",isTeacher:false},
-
-// ]
