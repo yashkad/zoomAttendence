@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Attendance Automation System</title>
+    <style>
+        body {
+            background-color: #414141;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family: helvetica;
+            width: 250px;
+            margin: 6px;
+            outline: none;
+        }
+        
+        .txtInput {
+            padding: 6px 12px;
+            background: rgb(31, 32, 35);
+            border: 1px solid rgb(60, 63, 68);
+            border-radius: 0.3rem;
+            font-size: 16px;
+            color: rgb(247, 248, 248);
+            height: 36px;
+            appearance: none;
+            transition: border 0.15s ease 0s;
+            box-shadow: 0 25.6px 57.6px 0 rgb(0 0 0 / 22%), 0 4.8px 14.4px 0 rgb(0 0 0 / 18%);
+            text-transform: uppercase;
+            text-align: center;
+        }
+        
+        .txtInput :focus {
+            outline: none;
+            box-shadow: none;
+        }
+        
+        .txtInput:hover {
+            box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px gray;
+            transform: translateY(-2px);
+        }
+        
+        .formDiv {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .heading {
+            text-align: center;
+            font-weight: bold;
+            color: #EEF2FF;
+        }
+        
+        .submitButton {
+            box-shadow: 0 25.6px 57.6px 0 rgb(0 0 0 / 22%), 0 4.8px 14.4px 0 rgb(0 0 0 / 18%);
+            margin: 1rem;
+            display: inline-block;
+            outline: 0;
+            border: 0;
+            cursor: pointer;
+            transition: box-shadow 0.15s ease, transform 0.15s ease;
+            will-change: box-shadow, transform;
+            background: #FCFCFD;
+            box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
+            height: 48px;
+            padding: 0 32px;
+            font-size: 18px;
+            border-radius: 6px;
+            color: #36395a;
+            transition: box-shadow 0.15s ease, transform 0.15s ease;
+        }
+        
+        .submitButton:hover {
+            box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
+            transform: translateY(-2px);
+        }
+        
+        .submitButton:active {
+            box-shadow: inset 0px 3px 7px #d6d6e7;
+            transform: translateY(2px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading">
+        <h2>Take Attendance</h2>
+        <p>only works on zoom.us website</p>
+    </div>
+
+    <form>
+        <div class="formDiv">
+            <input autofocus required id="subjectName" type="text" class="txtInput" placeholder="Enter subject name" />
+            <input id="submitButton" type="submit" value="Take Attendance" class="submitButton" />
+        </div>
+    </form>
+
+    <footer style="color:wheat;text-align:center">
+        <style>
+            .heart {
+                color: #e25555;
+            }
+        </style>
+        Made with <span class="heart">♥</span> by Yash.k
+
+    </footer>
+    <script src="popup.js"></script>
+</body>
+
+</html>
