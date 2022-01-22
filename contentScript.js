@@ -5,8 +5,8 @@ let date = d.getDate() + "_" + (d.getMonth() + 1) + "_" + d.getFullYear();
 let file_name = date;
 var attendance = [];
 var list = [];
-// const KEY_PANTRY = "9db2752c-ab8b-419b-a3a5-2dddbc318306";
-const KEY_PANTRY = "9b069f22-5368-4c85-8b87-1cc2bb362f7f";
+// const KEY_PANTRY = "";
+const KEY_PANTRY = "Your key here";
 let bName = "";
 let subject = "";
 
